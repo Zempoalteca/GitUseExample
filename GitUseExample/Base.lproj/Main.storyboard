@@ -25,9 +25,17 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OfH-A2-3yr"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My new label in a new branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uaP-LX-PLq">
+                                <rect key="frame" x="75" y="159" width="225" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="CGE-7D-Ouv" firstAttribute="top" secondItem="uaP-LX-PLq" secondAttribute="bottom" constant="148" id="2IC-s8-eKk"/>
+                            <constraint firstItem="uaP-LX-PLq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="PSG-dW-Iwv"/>
                             <constraint firstItem="CGE-7D-Ouv" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="m5r-pb-2Lj"/>
                             <constraint firstItem="CGE-7D-Ouv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="sxv-tw-jTC"/>
                         </constraints>
