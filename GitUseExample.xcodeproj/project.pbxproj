@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C04B418720D479D300F93322 /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04B418620D479D300F93322 /* MapForItinerary.swift */; };
+		C04B418920D47AD500F93322 /* MapForItineraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04B418820D47AD500F93322 /* MapForItineraryVC.swift */; };
 		C0B4957420D45E760072DA61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B4957320D45E760072DA61 /* AppDelegate.swift */; };
 		C0B4957620D45E760072DA61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B4957520D45E760072DA61 /* ViewController.swift */; };
 		C0B4957920D45E760072DA61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B4957720D45E760072DA61 /* Main.storyboard */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C04B418620D479D300F93322 /* MapForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
+		C04B418820D47AD500F93322 /* MapForItineraryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItineraryVC.swift; sourceTree = "<group>"; };
 		C0B4957020D45E760072DA61 /* GitUseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitUseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B4957320D45E760072DA61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0B4957520D45E760072DA61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,11 +58,11 @@
 			children = (
 				C0B4957320D45E760072DA61 /* AppDelegate.swift */,
 				C0B4957520D45E760072DA61 /* ViewController.swift */,
-				C04B418620D479D300F93322 /* MapForItinerary.swift */,
 				C0B4957720D45E760072DA61 /* Main.storyboard */,
 				C0B4957A20D45E770072DA61 /* Assets.xcassets */,
 				C0B4957C20D45E770072DA61 /* LaunchScreen.storyboard */,
 				C0B4957F20D45E770072DA61 /* Info.plist */,
+				C04B418820D47AD500F93322 /* MapForItineraryVC.swift */,
 			);
 			path = GitUseExample;
 			sourceTree = "<group>";
@@ -139,8 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0B4957620D45E760072DA61 /* ViewController.swift in Sources */,
+				C04B418920D47AD500F93322 /* MapForItineraryVC.swift in Sources */,
 				C0B4957420D45E760072DA61 /* AppDelegate.swift in Sources */,
-				C04B418720D479D300F93322 /* MapForItinerary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
